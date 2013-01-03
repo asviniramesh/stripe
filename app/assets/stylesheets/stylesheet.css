@@ -1,0 +1,163 @@
+html {
+  color: #2E3846;
+  font-weight: 400;
+  font-size: 0.9em;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
+}
+
+body {
+	background: url('../assets/background.png');
+	margin: 20px 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #222222;
+	font-size: 0.80em;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.sidebar {
+	float: left;
+	width: 200px;
+	text-align: center;
+	padding: 20px;
+	font-size: 0.9em;
+	z-index: 1000;
+	position: fixed;
+}
+
+.logo {
+	margin: 0 0 20px 0;
+}
+
+.navigation {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #F1E0DE;
+}
+
+.navigation li {
+	list-style-type: none;
+	margin: 0 0 10px 0 ;
+}
+
+.mininav {
+	display: none;
+}
+
+.heading {
+	color: #ffffff;
+	width: 754px;
+	float: right;
+	padding: 15px 20px;
+	background: #668df1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 5px  5px 0 0;
+}
+
+.title {
+	float: left;
+}
+
+.subnavigation {
+	float: right;
+}
+
+.subnavigation li {
+	display: inline;
+	list-style-type: none;
+	margin: 0 0 0 20px;
+}
+
+.subnavigation a {
+	background: #567cdd;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.subnavigation form {
+	margin: 0;
+}
+
+.metanavigation li {
+	display: inline;
+	list-style-type: none;
+	margin: 0 10px 0 0;
+}
+
+.hero {
+  background: #A1B3D1;
+  color: white;
+  margin: -60px auto 20px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.hero h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+  line-height: 1.5em;
+}
+
+.hero span {
+	color: #2e3846;
+}
+
+.main {
+	width: 754px;
+	float: right;
+	padding: 20px;
+	background: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 0 0 5px 5px;
+}
+
+.content {
+	overflow: hidden;
+	padding: 20px;
+}
+
+.testimonial {
+	xbackground-color: rgba(255,255,255,0.7);
+	margin: 0 0 20px 0;
+	padding: 10px;
+	text-align: left;
+}
+
+.testimonial:last-child {
+	margin: 0;
+}
+
+.cta span {
+	color: #fa4b00;
+}
+
+footer {
+	font-size: 0.7em;
+	margin: 40px 0;
+	text-align: center;
+	float: right;
+	width: 754px;
+	text-align: center;
+	padding: 0 20px;
+}

@@ -1,0 +1,31 @@
+<%= form_for @plan do |f| %>
+<%= f.label :PlanName %>
+<%= f.text_field :name %>
+    
+<%= f.label :Description %>
+<%= f.text_field :description %>
+
+<%= f.label :Amountcents%>
+<%= f.text_field :amount %>
+
+<%= f.label :Interval%>
+<%#= f.text_field :interval %>
+<%= f.select "interval", "<option>Month</option><option>Year</option>".html_safe%>
+
+<%= f.label :IntervalCount %>
+<%= f.text_field :interval_count %>
+
+<%= f.label :TrialPerioddays %>
+<%= f.text_field :trial_period_days %>
+
+<%= f.label :ChargeDate %>
+<%#= f.text_field :charge_date %>
+<%= f.select "charge_date", "<option>Anniversary</option><option>First of the month</option><option>First and Fifteenth</option>".html_safe%>
+
+<%= f.label :Livemode %>
+<%= f.check_box :livemode %></br>
+
+<%= f.submit "create new plan" %>
+  <% end %>
+
+    <a href="/">Cancel</a>
