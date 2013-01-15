@@ -8,6 +8,5 @@ class AddStripeToSubscriptions < ActiveRecord::Migration
     add_column :subscriptions, :state, :string
     add_column :subscriptions, :zipcode, :integer
     add_column :subscriptions, :country, :string
-    add_column :subscriptions, :charge_date, :datetime
   end
 end

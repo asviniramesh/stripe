@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130102074833) do
+ActiveRecord::Schema.define(:version => 20130112102459) do
 
   create_table "plans", :force => true do |t|
     t.string   "name"
@@ -20,13 +20,13 @@ ActiveRecord::Schema.define(:version => 20130102074833) do
     t.string   "interval"
     t.integer  "interval_count"
     t.integer  "trial_period_days"
-    t.string   "charge_date"
+    t.string   "charge_date_type"
     t.boolean  "livemode"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "subscriptions", :force => true do |t|
+  create_table "users", :force => true do |t|
     t.integer  "plan_id"
     t.string   "email"
     t.datetime "created_at"
@@ -39,7 +39,6 @@ ActiveRecord::Schema.define(:version => 20130102074833) do
     t.string   "state"
     t.integer  "zipcode"
     t.string   "country"
-    t.datetime "charge_date"
     t.string   "encrypted_password",     :default => "", :null => false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"

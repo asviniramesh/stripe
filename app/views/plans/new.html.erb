@@ -9,8 +9,7 @@
 <%= f.text_field :amount %>
 
 <%= f.label :Interval%>
-<%#= f.text_field :interval %>
-<%= f.select "interval", "<option>Month</option><option>Year</option>".html_safe%>
+<%= f.select "interval", "<option>month</option><option>year</option>".html_safe%>
 
 <%= f.label :IntervalCount %>
 <%= f.text_field :interval_count %>
@@ -19,8 +18,7 @@
 <%= f.text_field :trial_period_days %>
 
 <%= f.label :ChargeDate %>
-<%#= f.text_field :charge_date %>
-<%= f.select "charge_date", "<option>Anniversary</option><option>First of the month</option><option>First and Fifteenth</option>".html_safe%>
+<%= f.select "charge_date_type", "<option>Anniversary</option><option>First of the month</option>".html_safe%>
 
 <%= f.label :Livemode %>
 <%= f.check_box :livemode %></br>
